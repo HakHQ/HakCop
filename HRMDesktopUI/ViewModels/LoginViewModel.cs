@@ -25,7 +25,8 @@ namespace HRMDesktopUI.ViewModels
         public string Password
         {
             get { return _password; }
-            set {
+            set
+            {
                 _password = value;
                 NotifyOfPropertyChange(() => Password);
                 NotifyOfPropertyChange(() => CanLogin);
